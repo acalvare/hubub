@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Skynet" name="com.grailsinaction.PostIntegrationSpec" tests="3" time="0.486" timestamp="2015-10-13T00:50:10">
+  <properties />
+  <testcase classname="com.grailsinaction.PostIntegrationSpec" name="adding posts to user links post to user" time="0.377" />
+  <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure posts linked to a user can be retrieved" time="0.071" />
+  <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Exercise tagging several posts with various tags" time="0.025" />
+  <system-out><![CDATA[--Output from adding posts to user links post to user--
+--Output from Ensure posts linked to a user can be retrieved--
+--Output from Exercise tagging several posts with various tags--
+]]></system-out>
+  <system-err><![CDATA[--Output from adding posts to user links post to user--
+--Output from Ensure posts linked to a user can be retrieved--
+--Output from Exercise tagging several posts with various tags--
+]]></system-err>
+</testsuite>

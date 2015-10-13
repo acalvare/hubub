@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Skynet" name="com.grailsinaction.UserIntegrationSpec" tests="4" time="0.131" timestamp="2015-10-13T00:50:11">
+  <properties />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.022" />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.017" />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an exisiting user removes it from the database" time="0.052" />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.038" />
+  <system-out><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an exisiting user removes it from the database--
+--Output from Saving a user with invalid properties causes an error--
+]]></system-out>
+  <system-err><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an exisiting user removes it from the database--
+--Output from Saving a user with invalid properties causes an error--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,594 @@
+2015-10-12 19:47:59,842 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+joe.errors.errorCount == 15
+|   |      |          |
+|   |      0          false
+|   grails.validation.ValidationErrors: 0 errors
+com.grailsinaction.User : 1
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 19:47:59,867 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+joe.errors.errorCount == 15
+|   |      |          |
+|   |      0          false
+|   grails.validation.ValidationErrors: 0 errors
+com.grailsinaction.User : 1
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 19:47:59,872 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 15
+|   |      |          |
+|   |      0          false
+|   grails.validation.ValidationErrors: 0 errors
+com.grailsinaction.User : 1
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 19:47:59,873 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 15
+|   |      |          |
+|   |      0          false
+|   grails.validation.ValidationErrors: 0 errors
+com.grailsinaction.User : 1
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 19:47:59,900 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 15
+|   |      |          |
+|   |      0          false
+|   grails.validation.ValidationErrors: 0 errors
+com.grailsinaction.User : 1
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 19:47:59,900 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 15
+|   |      |          |
+|   |      0          false
+|   grails.validation.ValidationErrors: 0 errors
+com.grailsinaction.User : 1
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 19:56:45,531 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: existingUser for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 19:56:45,547 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: existingUser for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 19:56:45,549 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: existingUser for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 19:56:45,550 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: existingUser for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 19:56:45,555 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: existingUser for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 19:56:45,555 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: existingUser for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:05:03,141 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+joe.errors.errorCount == 0
+|   |      |          |
+|   |      1          false
+|   grails.validation.ValidationErrors: 1 errors
+|   Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+com.grailsinaction.User : (unsaved)
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 20:05:03,147 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+joe.errors.errorCount == 0
+|   |      |          |
+|   |      1          false
+|   grails.validation.ValidationErrors: 1 errors
+|   Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+com.grailsinaction.User : (unsaved)
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 20:05:03,152 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 0
+|   |      |          |
+|   |      1          false
+|   grails.validation.ValidationErrors: 1 errors
+|   Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+com.grailsinaction.User : (unsaved)
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 20:05:03,157 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 0
+|   |      |          |
+|   |      1          false
+|   grails.validation.ValidationErrors: 1 errors
+|   Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+com.grailsinaction.User : (unsaved)
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 20:05:03,164 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 0
+|   |      |          |
+|   |      1          false
+|   grails.validation.ValidationErrors: 1 errors
+|   Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+com.grailsinaction.User : (unsaved)
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 20:05:03,164 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 0
+|   |      |          |
+|   |      1          false
+|   grails.validation.ValidationErrors: 1 errors
+|   Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+com.grailsinaction.User : (unsaved)
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:16)
+2015-10-12 20:05:03,214 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:05:03,216 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:05:03,221 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:05:03,221 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:05:03,222 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:05:03,222 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:05:03,238 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:05:03,238 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:05:03,241 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:05:03,241 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:05:03,242 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:05:03,242 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:18:22,874 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:18:22,897 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:18:22,899 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:18:22,899 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:18:22,913 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:18:22,913 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:18:22,953 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:18:22,953 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:18:22,954 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:18:22,955 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:18:22,955 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:18:22,955 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:18:22,966 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:18:22,966 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:18:22,969 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:18:22,970 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:18:22,970 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:18:22,970 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Alex for class: com.grailsinaction.UserIntegrationSpec
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:18:23,136 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:18:23,136 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:18:23,137 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:18:23,137 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:18:23,138 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:18:23,138 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:19:15,900 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:19:15,902 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:19:15,904 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:19:15,905 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:19:15,942 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:19:15,942 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:19:15,972 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:19:15,972 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:19:15,972 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:19:15,972 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:19:15,972 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:19:15,973 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:24)
+2015-10-12 20:19:15,981 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:19:15,981 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:19:15,982 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:19:15,982 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:19:15,982 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:19:15,982 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:39)
+2015-10-12 20:19:16,065 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:19:16,065 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:19:16,065 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:19:16,065 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:19:16,066 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:19:16,066 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:62)
+2015-10-12 20:21:44,446 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:21:44,448 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:21:44,449 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:21:44,449 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:21:44,456 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:21:44,456 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Could not find matching constructor for: com.grailsinaction.User(java.util.LinkedHashMap, com.grailsinaction.Profile)
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:10)
+2015-10-12 20:21:44,569 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:21:44,569 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:21:44,570 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:21:44,570 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:21:44,571 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:21:44,571 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:25)
+2015-10-12 20:21:44,595 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:21:44,595 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:21:44,596 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:21:44,597 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:21:44,597 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:21:44,597 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [null]; codes [com.grailsinaction.User.homepage.nullable.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.error.homepage,com.grailsinaction.User.homepage.nullable.error.java.lang.String,com.grailsinaction.User.homepage.nullable.error,user.homepage.nullable.error.com.grailsinaction.User.homepage,user.homepage.nullable.error.homepage,user.homepage.nullable.error.java.lang.String,user.homepage.nullable.error,com.grailsinaction.User.homepage.nullable.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.nullable.homepage,com.grailsinaction.User.homepage.nullable.java.lang.String,com.grailsinaction.User.homepage.nullable,user.homepage.nullable.com.grailsinaction.User.homepage,user.homepage.nullable.homepage,user.homepage.nullable.java.lang.String,user.homepage.nullable,nullable.com.grailsinaction.User.homepage,nullable.homepage,nullable.java.lang.String,nullable]; arguments [homepage,class com.grailsinaction.User]; default message [Property [{0}] of class [{1}] cannot be null]
+
+	at com.grailsinaction.UserIntegrationSpec.Deleting an exisiting user removes it from the database(UserIntegrationSpec.groovy:40)
+2015-10-12 20:21:44,634 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:21:44,634 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:21:44,634 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:21:44,635 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:21:44,635 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:21:44,635 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:22:57,635 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:22:57,638 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:22:57,640 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:22:57,640 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:22:57,647 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:22:57,647 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:24:50,421 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:24:50,424 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:24:50,426 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:24:50,426 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:24:50,435 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:24:50,436 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'code' on null object
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:64)
+2015-10-12 20:33:00,853 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: loginId for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:9)
+2015-10-12 20:33:00,858 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: loginId for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:9)
+2015-10-12 20:33:00,861 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: loginId for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:9)
+2015-10-12 20:33:00,864 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: loginId for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:9)
+2015-10-12 20:33:00,904 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: loginId for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:9)
+2015-10-12 20:33:00,906 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: loginId for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:9)
+2015-10-12 20:33:58,393 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: uesr for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:13)
+2015-10-12 20:33:58,398 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: uesr for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:13)
+2015-10-12 20:33:58,401 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: uesr for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:13)
+2015-10-12 20:33:58,401 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: uesr for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:13)
+2015-10-12 20:33:58,408 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: uesr for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:13)
+2015-10-12 20:33:58,411 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: uesr for class: com.grailsinaction.PostIntegrationSpec
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:13)
+2015-10-12 20:36:07,391 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+2 == User.get(user.id).posts.size()
+  |       |   |    |   |     |
+  false   |   |    1   |     3
+          |   |        [com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved)]
+          |   com.grailsinaction.User : 1
+          com.grailsinaction.User : 1
+
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:18)
+2015-10-12 20:36:07,396 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+2 == User.get(user.id).posts.size()
+  |       |   |    |   |     |
+  false   |   |    1   |     3
+          |   |        [com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved)]
+          |   com.grailsinaction.User : 1
+          com.grailsinaction.User : 1
+
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:18)
+2015-10-12 20:36:07,399 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+2 == User.get(user.id).posts.size()
+  |       |   |    |   |     |
+  false   |   |    1   |     3
+          |   |        [com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved)]
+          |   com.grailsinaction.User : 1
+          com.grailsinaction.User : 1
+
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:18)
+2015-10-12 20:36:07,399 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+2 == User.get(user.id).posts.size()
+  |       |   |    |   |     |
+  false   |   |    1   |     3
+          |   |        [com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved)]
+          |   com.grailsinaction.User : 1
+          com.grailsinaction.User : 1
+
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:18)
+2015-10-12 20:36:07,406 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+2 == User.get(user.id).posts.size()
+  |       |   |    |   |     |
+  false   |   |    1   |     3
+          |   |        [com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved)]
+          |   com.grailsinaction.User : 1
+          com.grailsinaction.User : 1
+
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:18)
+2015-10-12 20:36:07,406 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+2 == User.get(user.id).posts.size()
+  |       |   |    |   |     |
+  false   |   |    1   |     3
+          |   |        [com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved), com.grailsinaction.Post : (unsaved)]
+          |   com.grailsinaction.User : 1
+          com.grailsinaction.User : 1
+
+	at com.grailsinaction.PostIntegrationSpec.adding posts to user links post to user(PostIntegrationSpec.groovy:18)
